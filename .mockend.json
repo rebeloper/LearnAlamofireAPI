@@ -2,6 +2,7 @@
   "User": {
     "first_name": "string",
     "last_name": "string",
+    "profile_picture_seed": "string",
     "posts": "Post[]"
   },
   "Post": {
