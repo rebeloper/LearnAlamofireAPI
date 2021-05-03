@@ -1,9 +1,15 @@
 {
+  "User": {
+    "first_name": "string",
+    "last_name": "string",
+    "posts": "Post[]"
+  },
   "Post": {
     "title": "string",
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
+    "user": "User",
     "comments": "Comment[]"
   },
   "Comment": {
